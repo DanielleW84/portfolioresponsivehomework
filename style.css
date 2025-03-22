@@ -20,6 +20,12 @@ h1 {
   font-size: 96px;
 }
 
+@media (max-width: 768px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
 h2 {
   font-size: 48px;
 }
@@ -96,7 +102,7 @@ p {
 }
 
 .rounded {
-  boder-radius: 0.25rem !important;
+  border-radius: 0.25rem !important;
 }
 .image-fluid {
   max-width: 100%;
@@ -112,9 +118,9 @@ p {
   flex: 0 0 auto;
   width: 33%;
 }
-..shadow {
+.shadow {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
-..p-2 {
+.p-2 {
   padding: 0.5rem !important;
 }
